@@ -541,6 +541,44 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.8570658036677453,
+      "y": 0.766743648960739,
+      "uniqueID": "id-256070",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": {
+            "geometry": "cut-cut-extrude-cut-circle-62.5-circle-34.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-112-move-extrude-circle-12-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11-34.5-0-101-move-extrude-circle-12-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11--34.5-0-0",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        }
+      ],
+      "readMeText": "Readme text here",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -638,6 +676,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-256041",
       "ap2ID": "id-255990"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-256041",
+      "ap2ID": "id-256070"
     },
     {
       "ap2Name": "Shape 1",
