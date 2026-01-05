@@ -317,7 +317,30 @@
       "ioValues": [
         {
           "name": "geometry",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "extrude-circle-12-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         },
         {
           "name": "xDist",
@@ -335,8 +358,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5884573894282632,
-      "y": 0.6997690531177828,
+      "x": 0.4892125134843581,
+      "y": 0.6951501154734411,
       "uniqueID": "id-256051",
       "ioValues": [
         {
@@ -356,6 +379,34 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.19956850053937433,
+      "y": 0.8406466512702079,
+      "uniqueID": "id-256057",
+      "name": "x/2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x/2"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.28694714131607335,
+      "y": 0.8845265588914549,
+      "uniqueID": "id-256061",
+      "name": "-x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "-x"
     }
   ],
   "allConnectors": [
@@ -425,6 +476,11 @@
       "ap2ID": "id-256037"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-256033",
+      "ap2ID": "id-256045"
+    },
+    {
       "ap2Name": "geometry1",
       "ap1ID": "id-256037",
       "ap2ID": "id-256041"
@@ -433,11 +489,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-256041",
       "ap2ID": "id-255990"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-256045",
-      "ap2ID": "id-256051"
     }
   ],
   "unitsKey": "MM",
