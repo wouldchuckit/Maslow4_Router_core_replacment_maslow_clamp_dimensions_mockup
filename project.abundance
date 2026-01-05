@@ -1,13 +1,42 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-255989",
-    "name": "Maslow4_Router_core_replacment_maslow_clamp_dimensions_mockup",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-255989",
+  "name": "Maslow4_Router_core_replacment_maslow_clamp_dimensions_mockup",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-255990",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.04692556634304207,
+      "y": 0.27020785219399535,
+      "uniqueID": "id-255992",
+      "name": "RouterDiameter",
+      "value": 69
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.04638619201725998,
+      "y": 0.3695150115473441,
+      "uniqueID": "id-255994",
+      "name": "RouterHeight",
+      "value": 112
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
