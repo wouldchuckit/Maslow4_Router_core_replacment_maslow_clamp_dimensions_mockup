@@ -52,8 +52,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.2297734627831715,
-      "y": 0.3279445727482679,
+      "x": 0.2923408845738943,
+      "y": 0.2586605080831409,
       "uniqueID": "id-256010",
       "ioValues": [
         {
@@ -64,10 +64,60 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.1925566343042071,
-      "y": 0.6997690531177828,
+      "x": 0.1936353829557713,
+      "y": 0.4064665127020785,
       "uniqueID": "id-256013",
-      "name": "x + y",
+      "name": "x + 2*y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 69
+        },
+        {
+          "name": "y",
+          "ioValue": 28
+        }
+      ],
+      "currentEquation": "x + 2*y"
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.04584681769147789,
+      "y": 0.6997690531177828,
+      "uniqueID": "id-256017",
+      "name": "ClampWidth",
+      "value": 28
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.2928802588996764,
+      "y": 0.4064665127020785,
+      "uniqueID": "id-256019",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 125
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.29395900755124055,
+      "y": 0.5658198614318707,
+      "uniqueID": "id-256022",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 24
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.23786407766990292,
+      "y": 0.7413394919168591,
+      "uniqueID": "id-256025",
+      "name": "x - y",
       "ioValues": [
         {
           "name": "x",
@@ -78,7 +128,7 @@
           "ioValue": 1
         }
       ],
-      "currentEquation": "x + y"
+      "currentEquation": "x - y"
     }
   ],
   "allConnectors": [
@@ -86,6 +136,26 @@
       "ap2Name": "diameter",
       "ap1ID": "id-255992",
       "ap2ID": "id-256010"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-255992",
+      "ap2ID": "id-256013"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-256002",
+      "ap2ID": "id-256022"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-256013",
+      "ap2ID": "id-256019"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-256017",
+      "ap2ID": "id-256013"
     }
   ],
   "unitsKey": "MM",
