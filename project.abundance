@@ -389,7 +389,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
+          "ioValue": 69
         }
       ],
       "currentEquation": "x/2"
@@ -419,6 +419,11 @@
       "ap2Name": "x",
       "ap1ID": "id-255992",
       "ap2ID": "id-256013"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-255992",
+      "ap2ID": "id-256057"
     },
     {
       "ap2Name": "x",
