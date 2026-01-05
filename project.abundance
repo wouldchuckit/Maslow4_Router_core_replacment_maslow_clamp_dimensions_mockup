@@ -52,8 +52,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.2923408845738943,
-      "y": 0.2586605080831409,
+      "x": 0.28748651564185546,
+      "y": 0.25635103926096997,
       "uniqueID": "id-256010",
       "ioValues": [
         {
@@ -129,6 +129,107 @@
         }
       ],
       "currentEquation": "x - y"
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.35221143473570654,
+      "y": 0.279445727482679,
+      "uniqueID": "id-256029",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": {
+            "geometry": "circle-62.5",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "geometry2",
+          "ioValue": {
+            "geometry": "circle-34.5",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3559870550161812,
+      "y": 0.5103926096997691,
+      "uniqueID": "id-256033",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": {
+            "geometry": "circle-12",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -158,6 +259,11 @@
       "ap2ID": "id-256022"
     },
     {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-256010",
+      "ap2ID": "id-256029"
+    },
+    {
       "ap2Name": "diameter",
       "ap1ID": "id-256013",
       "ap2ID": "id-256019"
@@ -166,6 +272,16 @@
       "ap2Name": "y",
       "ap1ID": "id-256017",
       "ap2ID": "id-256013"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-256019",
+      "ap2ID": "id-256029"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-256022",
+      "ap2ID": "id-256033"
     }
   ],
   "unitsKey": "MM",
