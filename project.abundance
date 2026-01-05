@@ -114,18 +114,18 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.23786407766990292,
-      "y": 0.7413394919168591,
+      "x": 0.2022653721682848,
+      "y": 0.7274826789838337,
       "uniqueID": "id-256025",
       "name": "x - y",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
+          "ioValue": 112
         },
         {
           "name": "y",
-          "ioValue": 1
+          "ioValue": 11
         }
       ],
       "currentEquation": "x - y"
@@ -141,6 +141,16 @@
       "ap2Name": "x",
       "ap1ID": "id-255992",
       "ap2ID": "id-256013"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-255994",
+      "ap2ID": "id-256025"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-256000",
+      "ap2ID": "id-256025"
     },
     {
       "ap2Name": "diameter",
