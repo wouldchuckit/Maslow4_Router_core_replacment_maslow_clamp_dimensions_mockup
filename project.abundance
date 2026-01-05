@@ -344,7 +344,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 34.5
         },
         {
           "name": "yDist",
@@ -364,11 +364,34 @@
       "ioValues": [
         {
           "name": "geometry",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "extrude-circle-12-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -34.5
         },
         {
           "name": "yDist",
@@ -403,7 +426,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
+          "ioValue": 34.5
         }
       ],
       "currentEquation": "-x"
@@ -486,6 +509,11 @@
       "ap2ID": "id-256045"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-256033",
+      "ap2ID": "id-256051"
+    },
+    {
       "ap2Name": "geometry1",
       "ap1ID": "id-256037",
       "ap2ID": "id-256041"
@@ -494,6 +522,21 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-256041",
       "ap2ID": "id-255990"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-256057",
+      "ap2ID": "id-256061"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-256057",
+      "ap2ID": "id-256045"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-256061",
+      "ap2ID": "id-256051"
     }
   ],
   "unitsKey": "MM",
