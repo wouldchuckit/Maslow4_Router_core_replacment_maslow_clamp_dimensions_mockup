@@ -33,6 +33,21 @@
       "uniqueID": "id-255994",
       "name": "RouterHeight",
       "value": 112
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.04692556634304207,
+      "y": 0.4757505773672055,
+      "uniqueID": "id-256000",
+      "name": "ClampHeight",
+      "value": 11
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.04530744336569579,
+      "y": 0.6027713625866051,
+      "uniqueID": "id-256002",
+      "value": 10
     }
   ],
   "allConnectors": [],
