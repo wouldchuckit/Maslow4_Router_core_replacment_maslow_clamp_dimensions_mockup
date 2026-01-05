@@ -44,13 +44,50 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.04530744336569579,
-      "y": 0.6027713625866051,
+      "x": 0.04638619201725998,
+      "y": 0.5889145496535797,
       "uniqueID": "id-256002",
-      "value": 10
+      "name": "SwitchNIche",
+      "value": 24
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.2297734627831715,
+      "y": 0.3279445727482679,
+      "uniqueID": "id-256010",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 69
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1925566343042071,
+      "y": 0.6997690531177828,
+      "uniqueID": "id-256013",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-255992",
+      "ap2ID": "id-256010"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
